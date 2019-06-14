@@ -1,0 +1,39 @@
+{
+  "name": "Sudoku-react",
+  "version": "1.0.0",
+  "description": "reference: https://www.reactjscn.com/tutorial/tutorial.html",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack",
+    "test": "exit 0",
+    "server": "webpack-dev-server --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuyan1991/Sudoku-React.git"
+  },
+  "keywords": [],
+  "author": "yuyan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yuyan1991/Sudoku-React/issues"
+  },
+  "homepage": "https://github.com/yuyan1991/Sudoku-React#readme",
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "css-loader": "^2.1.1",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-server": "^3.3.1"
+  },
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "react": "^16.8.6",
+    "react-bootstrap": "^1.0.0-beta.9",
+    "react-dom": "^16.8.6"
+  }
+}
