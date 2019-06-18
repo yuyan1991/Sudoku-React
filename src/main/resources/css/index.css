@@ -1,0 +1,58 @@
+.square {
+    background: #fff;
+    border: 1px dashed #999;
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 34px;
+    height: 34px;
+    width: 34px;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    text-align: center;
+}
+
+.square:hover {
+    background-color: #999;
+}
+
+.square:focus {
+    background-color: #999;
+}
+
+.upperLeft {
+    border-left-style: solid;
+    border-top-style: solid;
+}
+
+.upper {
+    border-top-style: solid;
+}
+
+.upperRight {
+    border-right-style: solid;
+    border-top-style: solid;
+}
+
+.left {
+    border-left-style: solid;
+}
+
+.right {
+    border-right-style: solid;
+}
+
+.lowerLeft {
+    border-left-style: solid;
+    border-bottom-style: solid;
+}
+
+.lower {
+    border-bottom-style: solid;
+}
+
+.lowerRight {
+    border-right-style: solid;
+    border-bottom-style: solid;
+}
