@@ -1,3 +1,3 @@
-import {renderSudoku} from './element/sudoku';
+import {renderSudoku} from './element/sudoku/board';
 
 renderSudoku();

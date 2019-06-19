@@ -1,7 +1,6 @@
 .square {
     background: #fff;
-    border: 1px dashed #999;
-    float: left;
+    border: 1px solid #999;
     font-size: 24px;
     font-weight: bold;
     line-height: 34px;
@@ -18,7 +17,7 @@
 }
 
 .square:focus {
-    background-color: #999;
+    background-color: #ADD8E6;
 }
 
 .upperLeft {
